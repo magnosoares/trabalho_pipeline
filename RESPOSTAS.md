@@ -3,10 +3,10 @@
 ## Identificação do Grupo
 
 - **Integrantes:**
-  1. Nome:
-  2. Nome:
-  3. Nome:
-  4. Nome:
+  1. Nome: Magno Santana Soares
+  2. Nome: Lucia Helena Dutra Magalhães
+  3. Nome: Thiago Lobo Leite
+  4. Nome: Tiago André da Silveira Fialho
 
 ---
 
