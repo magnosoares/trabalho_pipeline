@@ -190,12 +190,13 @@ Pensando em um ambiente de produção, os dados inválidos podem causar parada d
 
 ### 4.1 Liste os commits que vocês fizeram (copie do git log):
 
-df0bbaf (HEAD -> main) refact: Exclusão do arquivo README (Enunciado e instruções para os exercícios).
-e91f5ea docs: Resposta ao questionamento da Parte4.1
-5628ec3 docs: Respostas aos questionamentos Parte1, Parte2 e Parte3.
-d91a86f feat: Versão 1.0 da aplicação implantada.
-f77de8c feat: Estrutura de arquivos implementada. Conforme modelo estabelecido.
-
+9e7d46b (HEAD -> main, origin/main, origin/HEAD) Novas respostas incluídas ao arquivo.
+76fe1ec Incluídas as respostas aos questionamentos
+e661d3a Desenvolviemento do Treinamento de Modelo
+e75d519 Validação da carga de dados do pipeline
+e1a8a54 Desenvolvimento da carga de dados do pipeline
+10d34d6 Definição dos integrantes
+9edc3fe Carga inicial - template do projeto
 ### 4.2 Por que mensagens de commit descritivas são importantes?
 
 Mensagens de commit padronizadas e descritivas são impotantes aspectos do versionamento de uma base de códigos. Sem essas características a manutenabilidade da base é importantemente comprometida. Permite que mesmo equipes que não tem familiaridade com aquele código entenda o que foi alterado, quando e por quem sem precisar analisar diretamente o código, facilitando a revisão do código, a localização de alterações prejudiciais, de features promovidas em momento errado ou mesmo saber onde realizar alterações quando necessário. Permitem ainda um rapido retorno da aplicação a um estado anterior, permitindo a entrada em produção com o isolamento do código indesejado.
