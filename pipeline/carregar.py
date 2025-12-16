@@ -1,6 +1,7 @@
 """
 Pipeline - Etapa 1: Carregar e Explorar Dados
 """
+
 import pandas as pd
 
 
@@ -14,8 +15,8 @@ def carregar_dados(caminho_arquivo):
     Returns:
         DataFrame com os dados
     """
-    # TODO 1: Use pd.read_csv() para carregar o arquivo
-    df = pd.read_csv(caminho_arquivo)
+        
+    df = df = pd.read_csv(caminho_arquivo)
     
     return df
 
@@ -31,19 +32,11 @@ def explorar_dados(df):
     print("EXPLORAÇÃO DOS DADOS")
     print("=" * 50)
     
-    # TODO 2: Mostre o shape do DataFrame (linhas, colunas)
-    print("\nShape do DataFrame")
     print(f"Shape: {df.shape}")
-    
-    # TODO 3: Mostre os tipos de cada coluna
-    print("\nTipos das Colunas")
-    print(df.dtypes)
-
-    # TODO 4: Mostre as 5 primeiras linhas
-    print("\nPrimeiros registros do DataFrame")
+    print(df.dtypes)    
     print(df.head())
-    
-    print("\n" + "=" * 100)
+        
+    print("=" * 50)
 
 
 def verificar_target(df, coluna_target='respondeu_campanha'):
@@ -54,19 +47,13 @@ def verificar_target(df, coluna_target='respondeu_campanha'):
         df: DataFrame
         coluna_target: nome da coluna target
     """
-    print("-" * 50)
-    print("DISTRIBUIÇÃO DO TARGET")
-    print("-" * 50)
+    print("\nDISTRIBUIÇÃO DO TARGET")
+    print("-" * 30)
     
-    # TODO 5: Mostre a contagem de cada valor do target
-    print("\nContagem de cada valor do target")
     print(df[coluna_target].value_counts())
-    
-    # TODO 6: Mostre a proporção (percentual) de cada valor
-    print("\nProporção de cada valor do target")
     print(df[coluna_target].value_counts(normalize=True))
-        
-    print("\n" + "-" * 50)
+    
+    print("-" * 30)
 
 
 # Teste local (executar este arquivo diretamente)
