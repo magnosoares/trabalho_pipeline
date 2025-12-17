@@ -179,7 +179,7 @@ Por exemplo, se o modelo simplesmente previsse `0` para todos os clientes, ele t
 
 ### 3.2 Por que validar dados ANTES de treinar o modelo?
 
-A persistencia de dados fora de conformidade, diminui a confiablidade dos dados, prejudica a validação e consequentemente o treinamento do modelo, ocasionando uma percepção errada do usuário - podendo causar impacto negativo no negócio, em casos mais importantes.
+A persistência de dados fora de conformidade, diminui a confiablidade dos dados, prejudica a validação e consequentemente o treinamento do modelo, ocasionando uma percepção errada do usuário - podendo causar impacto negativo no negócio, em casos mais importantes.
 
 Pensando em um ambiente de produção, os dados inválidos podem causar parada da aplicação, e pior, induzir o modelo a gerar previsões inadequadas ao negócio (um erro silencioso e que pode impactar direta e irreversivelmente a atividade da empresa).
 
@@ -191,7 +191,7 @@ Pensando em um ambiente de produção, os dados inválidos podem causar parada d
 
 9e7d46b (HEAD -> main, origin/main, origin/HEAD) Novas respostas incluídas ao arquivo.
 76fe1ec Incluídas as respostas aos questionamentos
-e661d3a Desenvolviemento do Treinamento de Modelo
+e661d3a Desenvolvimento do Treinamento de Modelo
 e75d519 Validação da carga de dados do pipeline
 e1a8a54 Desenvolvimento da carga de dados do pipeline
 10d34d6 Definição dos integrantes
@@ -199,7 +199,7 @@ e1a8a54 Desenvolvimento da carga de dados do pipeline
 
 ### 4.2 Por que mensagens de commit descritivas são importantes?
 
-Mensagens de commit padronizadas e descritivas são impotantes aspectos do versionamento de uma base de códigos. Sem essas características a manutenabilidade da base é importantemente comprometida. Permite que mesmo equipes que não tem familiaridade com aquele código entenda o que foi alterado, quando e por quem sem precisar analisar diretamente o código, facilitando a revisão do código, a localização de alterações prejudiciais, de features promovidas em momento errado ou mesmo saber onde realizar alterações quando necessário. Permitem ainda um rapido retorno da aplicação a um estado anterior, permitindo a entrada em produção com o isolamento do código indesejado.
+Mensagens de commit padronizadas e descritivas são importantes aspectos do versionamento de uma base de códigos. Sem essas características a manutenabilidade da base pode ser seriamente comprometida. Permite que mesmo equipes que não têm familiaridade com aquele código entenda o que foi alterado, quando e por quem, sem precisar analisar diretamente o código, facilitando a revisão do código, a localização de alterações prejudiciais, de features promovidas em momento errado ou mesmo saber onde realizar alterações quando necessário. Permitem ainda um rápido retorno da aplicação a um estado anterior, permitindo a entrada em produção com o isolamento do código indesejado.
 
 ---
 
